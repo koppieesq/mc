@@ -1,17 +1,17 @@
 {
-    "name": "koppie/mc",
-    "description": "Master of Ceremonies",
-    "type": "robo-tasks",
-    "minimum-stability": "stable",
-    "require": {
-        "php": "7.1.*",
-        "consolidation/robo": "^1.4"
-    },
-    "license": "GPL-3.0-only",
-    "authors": [
-        {
-            "name": "Jordan Koplowicz",
-            "email": "jordan@koplowicz.com"
-        }
-    ]
+  "name": "koppie/mc",
+  "description": "Master of Ceremonies",
+  "type": "robo-tasks",
+  "minimum-stability": "stable",
+  "require": {
+    "php": "7.1.*",
+    "consolidation/robo": "^1.4"
+  },
+  "license": "GPL-3.0-only",
+  "authors": [
+    {
+      "name": "Jordan Koplowicz",
+      "email": "jordan@koplowicz.com"
+    }
+  ]
 }
