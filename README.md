@@ -1,6 +1,6 @@
 # Master of Ceremonies
 [![github](https://img.shields.io/badge/github-0a0.svg?logo=github)](https://github.com/koppieesq/mc)
-[![packagist](https://img.shields.io/badge/packagist-orange.svg?logo=php&logoColor=white)](https://packagist.org/packages/koppieesq/propellerhat)
+[![packagist](https://img.shields.io/badge/packagist-orange.svg?logo=php&logoColor=white)](https://packagist.org/packages/koppie/mc)
 [![License](https://img.shields.io/badge/license-GPL3-teal.svg?logo=gnu)](LICENSE)
 
 Plugin for [Robo](https://robo.li).
@@ -12,9 +12,9 @@ The MC greets you and tells you what's up.  They do it with flair, and they make
 @todo
       
 # Roadmap
-- create Packagist package
-- add robo-tasks tag
-  
+
+@todo
+      
 # Credits
 
 Brought to you by [Jordan Koplowicz](http://koplowiczandsons.com).  
