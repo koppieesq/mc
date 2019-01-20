@@ -6,7 +6,7 @@
         "php": "7.1.*",
         "consolidation/robo": "^1.4"
     },
-    "license": "GPL3",
+    "license": "GPL-3.0-only",
     "authors": [
         {
             "name": "Jordan Koplowicz",
