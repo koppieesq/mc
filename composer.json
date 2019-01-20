@@ -1,0 +1,16 @@
+{
+    "name": "koppie/mc",
+    "description": "Master of Ceremonies",
+    "type": "robo-tasks",
+    "require": {
+        "php": "7.1.*",
+        "consolidation/robo": "^1.4"
+    },
+    "license": "GPL3",
+    "authors": [
+        {
+            "name": "Jordan Koplowicz",
+            "email": "jordan@koplowicz.com"
+        }
+    ]
+}

@@ -13,7 +13,7 @@ The MC greets you and tells you what's up.  They do it with flair, and they make
       
 # Roadmap
 - create Packagist package
-- add robo-plugins tag
+- add robo-tasks tag
   
 # Credits
 
