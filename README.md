@@ -34,13 +34,13 @@ Tell the user how long your script took to complete.  Use `time()` to get the st
 ### catlet
 
 The Master of Ceremonies' crown jewel: Catlet!  It's a combination of `lolcat` and `figlet`.  Renders your string as a colorful title banner.  Example:
-
+```
    _   _      _ _        __        __         _     _
   | | | | ___| | | ___   \ \      / /__  _ __| | __| |
   | |_| |/ _ \ | |/ _ \   \ \ /\ / / _ \| '__| |/ _` |
   |  _  |  __/ | | (_) |   \ V  V / (_) | |  | | (_| |
   |_| |_|\___|_|_|\___/     \_/\_/ \___/|_|  |_|\__,_|
-
+```
 But, like, with color.  It's awesome, man.
 
 **Usage:** `catlet($string)`
