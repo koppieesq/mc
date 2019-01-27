@@ -13,5 +13,10 @@
       "name": "Jordan Koplowicz",
       "email": "jordan@koplowicz.com"
     }
-  ]
+  ],
+  "autoload": {
+    "psr-4": {
+      "MC\\": "./src/"
+    }
+  }
 }
