@@ -24,11 +24,4 @@ trait MC {
     return $this->mc;
   }
 
-  /**
-   * @param $io
-   */
-  public function setIo($io) {
-    $this->mc->setIo($io);
-  }
-
 }
