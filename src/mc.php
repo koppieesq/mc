@@ -7,17 +7,28 @@
  */
 
 namespace MC;
+
 use MC\MasterOfCeremonies;
+use Robo\Collection\CollectionBuilder;
 
-trait MC
-{
-    protected $mc;
+trait MC {
 
-    public function mc() {
-        if (!$this->mc()) {
-            $this->mc = new MasterOfCeremonies();
-        }
+  protected $mc;
 
-        return $this->mc;
+  public function mc() {
+    if (!$this->mc) {
+      $this->mc = new MasterOfCeremonies($this->getBuilder());
+      $this->mc->setIo($this->io());
     }
+
+    return $this->mc;
+  }
+
+  /**
+   * @param $io
+   */
+  public function setIo($io) {
+    $this->mc->setIo($io);
+  }
+
 }
