@@ -149,12 +149,13 @@ class MasterOfCeremonies {
 
     // Display in glorious fashion
     $this->catlet($banner);
-    $this->say($intro . "  Here's what I can do:");
+    $this->io()->text($intro . "  Here's what I can do:");
     $this->io()->listing($list);
 
     // Simple confirmation: anything to continue; ctl-C to escape.
-    $this->say("Do you want me to do this?");
-    $this->ask("Press [ENTER] to continue, ctrl-C to cancel.");
+    //    print $this->tput("Do you want me to do this?\n", ['color' => 'yellow']) ;
+    $this->io()->writeln("<fg=yellow>Do you want me to do this?</>");
+    $this->io()->ask("Press [ENTER] to continue, ctrl-C to cancel");
 
     return;
   }
