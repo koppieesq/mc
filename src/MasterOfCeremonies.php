@@ -87,7 +87,7 @@ class MasterOfCeremonies {
     $elapsed_time = $stop_time - $start_time;
     $elapsed_minutes = floor($elapsed_time / 60);
     $elapsed_seconds = $elapsed_time - $elapsed_minutes * 60;
-    $this->say("This took $elapsed_minutes minutes and $elapsed_seconds seconds.");
+    print "This took $elapsed_minutes minutes and $elapsed_seconds seconds.";
 
     return;
   }
