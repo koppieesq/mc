@@ -79,11 +79,7 @@ Add tutorial creating & using plugins:
   * change tone (less technical, active voice)
   * links to other things
   * demo code snippets: composer.json
-* point to example file
-* Create plain php class, not robofile
-* Create github project
-* create packagist project & add tag
-* link to existing list on Packagist (in multiple places)
+  * point to example file
 * second page: how to USE plugins (stub for now?)
       
 # Credits
