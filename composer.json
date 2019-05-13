@@ -3,9 +3,6 @@
   "description": "Master of Ceremonies",
   "type": "robo-tasks",
   "minimum-stability": "stable",
-  "require": {
-    "php": "^7.1.0"
-  },
   "license": "GPL-3.0-only",
   "authors": [
     {
